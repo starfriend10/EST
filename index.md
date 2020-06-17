@@ -17,12 +17,15 @@ sections:
     projects:
       - title: General statistics
         text: General statistics of publications and keywords
+        # the images are located in:
+        # img/portfolio/fullsize
+        # img/portfolio/thumbnails
         icon: 1.jpg
         url: '#'
       - title: Co-occurrence of the top keywords
         text: Circos plots for co-occurrence of the Top keywords
         icon: 2.jpg
-        url: 'https://pubs.acs.org/journal/esthag'
+        url: '#'
       - title: General keywords trend
         text: Distribution of temporal trend of the top 1000 keywords
         icon: 3.jpg
