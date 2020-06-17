@@ -21,7 +21,7 @@ sections:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: 1.jpg
-        url: '#'
+        url: 'https://pubs.acs.org/journal/esthag'
       - title: Co-occurrence of the top keywords
         text: Circos plots for co-occurrence of the Top keywords
         icon: 2.jpg
