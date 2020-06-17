@@ -1,9 +1,9 @@
 ---
 layout: home
 header:
-  title: First 20 years of the 21st century in ES&T: A thorough exploration of research topics based on text mining
+  title: First 20 years of the 21st century in ES&T
   text: >
-    Welcome to this webpage which provides interactive/raw figures
+    A thorough exploration of research topics based on text mining
   action: # action button is optional
     label: Retrieve the published paper
     url: '#about'
@@ -43,9 +43,10 @@ sections:
         icon: 6.jpg
         url: '#'
 
+ 
   - type: members.html
     section_id: members
-    title: This webpage is made by:
+    title: Our Crew!
     background_style: bg-info text-white
     members:
       - title: Junjie Zhu
@@ -53,7 +54,10 @@ sections:
         image: assets/img/members/person1.jpg
         url: '#'
       - title: Zhiyong Jason Ren
-        text: Bass guitar
+        text: Professor
         image: assets/img/members/person2.jpg
         url: '#'
+
+  
+
 ---
