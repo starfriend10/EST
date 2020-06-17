@@ -53,7 +53,7 @@ sections:
         image: assets/img/members/person1.jpg
         url: '#'
       - title: Zhiyong Jason Ren
-        text: Professor of Civil and Environmental Engineering and the Andlinger Center for Energy and the Environment; Associate Director for Research, Andlinger Center for Energy and the Environment.
+        text: Professor
         image: assets/img/members/person2.jpg
         url: '#'
 ---
