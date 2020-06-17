@@ -17,7 +17,7 @@ sections:
     projects:
       - title: General statistics
         text: General statistics of publications and keywords
-        icon: 1.jpg
+        #icon: 1.jpg
         label: xxxx
         url: 'https://pubs.acs.org/journal/esthag'
       - title: Co-occurrence of the top keywords
