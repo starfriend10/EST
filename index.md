@@ -43,7 +43,6 @@ sections:
         icon: 6.jpg
         url: '#'
 
- 
   - type: members.html
     section_id: members
     title: This study was done by
@@ -57,7 +56,4 @@ sections:
         text: Professor; Acting Director & Associate Director, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
         image: assets/img/members/person.jpg
         url: '#'
-
-  
-
 ---
