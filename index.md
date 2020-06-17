@@ -50,11 +50,11 @@ sections:
     background_style: bg-info text-white
     members:
       - title: Junjie Zhu
-        text: Postdoctoral Research Associate, CEE Department and the Andlinger Center for Energy and the Environment
+        text: Postdoctoral Research Associate, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
         image: assets/img/members/person.jpg
         url: 'https://junjiezhublog.wordpress.com/'
       - title: Zhiyong Jason Ren
-        text: Professor; Acting Director & Associate Director, CEE Department and the Andlinger Center for Energy and the Environment
+        text: Professor; Acting Director & Associate Director, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
         image: assets/img/members/person.jpg
         url: '#'
 
