@@ -16,37 +16,37 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: General statistics
+        text: General statistics of publications and keywords
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: 1.jpg
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
+      - title: Co-occurrence of the top keywords
+        text: Circos plots for co-occurrence of the Top keywords
         icon: 2.jpg
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
+      - title: General keywords trend
+        text: Distribution of temporal trend of the top 1000 keywords
         icon: 3.jpg
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
+      - title: Specific important keywords heatmap
+        text: Heatmap of top, heating-up, & emerging keywords
         icon: 4.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
+      - title: Domain classification
+        text: Raw plot of the membership-based networks
         icon: 5.jpg
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
+      - title: TBD
+        text: To be determined
         icon: 6.jpg
         url: '#'
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: This webpage is made by!
     background_style: bg-info text-white
     members:
       - title: Christina M. Aponte
