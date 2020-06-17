@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: 20 years of ES&T
+  title: ES&T 2000-2019
   text: >
     A thorough exploration of research topics based on text mining
   action: # action button is optional
