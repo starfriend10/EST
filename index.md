@@ -46,7 +46,7 @@ sections:
  
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: This study was done by
     background_style: bg-info text-white
     members:
       - title: Junjie Zhu
