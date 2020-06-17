@@ -18,6 +18,7 @@ sections:
       - title: General statistics
         text: General statistics of publications and keywords
         icon: 1.jpg
+        label: xxxx
         url: 'https://pubs.acs.org/journal/esthag'
       - title: Co-occurrence of the top keywords
         text: Circos plots for co-occurrence of the Top keywords
@@ -47,10 +48,10 @@ sections:
     members:
       - title: Junjie Zhu
         text: Postdoctoral Research Associate, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
-        image: assets/img/members/person.jpg
+        image: assets/img/members/person1.jpg
         url: 'https://junjiezhublog.wordpress.com/'
       - title: Zhiyong Jason Ren
         text: Professor; Acting Director & Associate Director, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
-        image: assets/img/members/person.jpg
+        image: assets/img/members/person2.jpg
         url: '#'
 ---
