@@ -5,7 +5,7 @@ header:
   text: >
     A thorough exploration of research topics based on text mining
   action: # action button is optional
-    label: Retrieve the published paper
+    label: Retrieve Zhu and Ren (XXXX)
     url: 'https://pubs.acs.org/journal/esthag'
 
 
