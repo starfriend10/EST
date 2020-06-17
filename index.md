@@ -52,7 +52,7 @@ sections:
       - title: Junjie Zhu
         text: Postdoctoral Research Associate, CEE Department and the Andlinger Center for Energy and the Environment
         image: assets/img/members/person.jpg
-        url: '#'
+        url: 'https://junjiezhublog.wordpress.com/'
       - title: Zhiyong Jason Ren
         text: Professor; Acting Director & Associate Director, CEE Department and the Andlinger Center for Energy and the Environment
         image: assets/img/members/person.jpg
