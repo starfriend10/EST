@@ -45,15 +45,15 @@ sections:
 
   - type: members.html
     section_id: members
-    title: This webpage is made by!
+    title: This webpage is made by:
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
+      - title: Junjie Zhu
+        text: Postdoctoral Research Associate
         image: assets/img/members/person1.jpg
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
+      - title: Zhiyong Jason Ren
+        text: Professor of Civil and Environmental Engineering and the Andlinger Center for Energy and the Environment; Associate Director for Research, Andlinger Center for Energy and the Environment.
         image: assets/img/members/person2.jpg
         url: '#'
 ---
