@@ -42,7 +42,7 @@ sections:
 
   - type: members.html
     section_id: members
-    title: This study was done by
+    title: Authors
     background_style: bg-info text-white
     members:
       - title: Junjie Zhu
