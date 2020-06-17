@@ -6,7 +6,7 @@ header:
     A thorough exploration of research topics based on text mining
   action: # action button is optional
     label: Retrieve the published paper
-    url: '#about'
+    url: 'https://pubs.acs.org/journal/esthag'
 
 
 sections:
