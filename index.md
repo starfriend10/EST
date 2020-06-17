@@ -50,11 +50,11 @@ sections:
     background_style: bg-info text-white
     members:
       - title: Junjie Zhu
-        text: Postdoctoral Research Associate
+        text: Postdoctoral Research Associate, CEE Department and the Andlinger Center for Energy and the Environment
         image: assets/img/members/person1.jpg
         url: '#'
       - title: Zhiyong Jason Ren
-        text: Professor
+        text: Professor; Acting Director & Associate Director, CEE Department and the Andlinger Center for Energy and the Environment
         image: assets/img/members/person2.jpg
         url: '#'
 
