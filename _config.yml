@@ -1,5 +1,5 @@
 # Site settings
-title: Webpage of Zhu and Ren (XXXX) for additional information
+title: Zhu and Ren (XXXX)
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/creative-theme-jekyll-new/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
