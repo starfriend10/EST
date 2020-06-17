@@ -53,7 +53,7 @@ sections:
         image: assets/img/members/person1.jpg
         url: '#'
       - title: Zhiyong Jason Ren
-        text: Professor
+        text: Bass guitar
         image: assets/img/members/person2.jpg
         url: '#'
 ---
