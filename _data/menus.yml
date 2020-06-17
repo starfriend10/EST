@@ -5,11 +5,9 @@
 header:
 - title: Article overview
   url: https://pubs.acs.org/journal/esthag
-- title: Supporting information
-  url: /#services
-- title: References cited
-  url: /#members
 - title: Python tools used
-  url: /#timeline
+  url: /#services
+- title: Author details
+  url: /#members
 - title: Updates
-  url: /#contacts
+  url: /#timeline
