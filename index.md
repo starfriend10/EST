@@ -10,6 +10,22 @@ header:
 
 
 sections:
+  - type: aside.html
+    section_id: aside
+    title: 
+    actions:
+      - title: General statistics of publications and keywords
+        url: https://pubs.acs.org/journal/esthag
+        class: btn-light
+        
+  - type: aside.html
+    section_id: aside
+    title: 
+    actions:
+      - title: Circos plots for co-occurrence of the Top keywords
+        url: https://pubs.acs.org/journal/esthag
+        class: btn-light
+        
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
