@@ -10,7 +10,7 @@ header:
 
 
 sections:
-  - type: aside.html
+  - type: aside1.html
     section_id: aside
     title: General statistics
     actions:
