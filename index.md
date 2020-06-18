@@ -20,10 +20,20 @@ sections:
         
   - type: aside.html
     section_id: aside
-    title: 
+    title:  
     actions:
       - title: Circos plots for co-occurrence of the Top keywords
         url: https://pubs.acs.org/journal/esthag
+        class: btn-light
+        
+  - type: call-to-action.html
+    section_id: about
+    background_style: bg-primary
+    title:  
+    text:  
+    actions:
+      - title: Circos plots for co-occurrence of the Top keywords
+        url: '#page-top'
         class: btn-light
         
   - type: portfolio.html
