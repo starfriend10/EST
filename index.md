@@ -10,7 +10,7 @@ header:
 
 
 sections:
- - type: aside.html
+  - type: aside.html
     section_id: aside
     title: General statistics
     actions:
@@ -18,7 +18,7 @@ sections:
         url: https://pubs.acs.org/journal/esthag
         class: btn-light
  
- - type: aside2.html
+  - type: aside2.html
     section_id: aside
     title: Keywords co-occurrence
     actions:
@@ -26,7 +26,7 @@ sections:
         url: https://pubs.acs.org/journal/esthag
         class: btn-light
         
- - type: aside3.html
+  - type: aside3.html
     section_id: aside
     title:  Keywords trend
     actions:
@@ -34,7 +34,7 @@ sections:
         url: https://pubs.acs.org/journal/esthag
         class: btn-light
  
- - type: aside4.html
+  - type: aside4.html
     section_id: aside
     title: Keywords heatmap
     actions:
@@ -42,7 +42,7 @@ sections:
         url: https://pubs.acs.org/journal/esthag
         class: btn-light
 
- - type: aside5.html
+  - type: aside5.html
     section_id: aside
     title: Domain classification
     actions:
