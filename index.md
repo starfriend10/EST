@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: ES&T 2000-2019
+  title: Environmental Science & Technology
   text: >
     A thorough exploration of research topics based on text mining
   action: # action button is optional
