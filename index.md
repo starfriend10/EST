@@ -65,7 +65,7 @@ sections:
   - type: members.html
     section_id: members
     title: Authors
-    background_style: bg-info text-white
+    background_style: bg-dark text-white
     members:
       - title: Junjie Zhu
         text: Postdoctoral Research Associate, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
