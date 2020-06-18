@@ -12,19 +12,12 @@ header:
 sections:
   - type: aside.html
     section_id: aside
-    title: 
+    title: Free Download at Start Bootstrap!
     actions:
-      - title: General statistics of publications and keywords
-        url: https://pubs.acs.org/journal/esthag
+      - title: Download Now!
+        url: https://startbootstrap.com/themes/creative/
         class: btn-light
-        
-  - type: aside.html
-    section_id: aside
-    title:  
-    actions:
-      - title: Circos plots for co-occurrence of the Top keywords
-        url: https://pubs.acs.org/journal/esthag
-        class: btn-light
+ 
         
   - type: call-to-action.html
     section_id: about
