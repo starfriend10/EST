@@ -31,7 +31,7 @@ sections:
     title:  Keywords trend
     actions:
       - title: Distribution of temporal trend of the top 1000 keywords
-        url: https://pubs.acs.org/journal/esthag
+        url: research/1000kw.html
         class: btn-light
  
   - type: aside4.html
