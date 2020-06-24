@@ -4,7 +4,7 @@
 # run. So please, fill in any custom menu entry here.
 header:
 - title: Article overview
-  url: https://starfriend10.github.io/test1/research/1000kw.html
+  url: /research/#1000kw
 - title: Python tools used
   url: /#services
 - title: Author details
