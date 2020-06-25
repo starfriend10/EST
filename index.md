@@ -15,7 +15,7 @@ sections:
     title: General statistics
     actions:
       - title: General statistics of publications and keywords
-        url: https://pubs.acs.org/journal/esthag
+        url: research/all_general.html
         class: btn-light
  
   - type: aside2.html
@@ -23,23 +23,23 @@ sections:
     title: Keywords co-occurrence
     actions:
       - title: Circos plots for co-occurrence of the Top keywords
-        url: https://pubs.acs.org/journal/esthag
+        url: research/all_circos.html
         class: btn-light
         
   - type: aside3.html
     section_id: aside
-    title:  Keywords trend
+    title:  Heating-up keywords
     actions:
       - title: Distribution of temporal trend of the top 1000 keywords
-        url: research/1000kw.html
+        url: research/all_1000kw.html
         class: btn-light
  
   - type: aside4.html
     section_id: aside
-    title: Keywords heatmap
+    title: Emerging keywords
     actions:
       - title: Heatmap of top, heating-up, & emerging keywords
-        url: https://pubs.acs.org/journal/esthag
+        url: research/all_1500kw_emerging
         class: btn-light
 
   - type: aside5.html
@@ -47,7 +47,7 @@ sections:
     title: Domain classification
     actions:
       - title: Raw plot of the membership-based networks
-        url: https://pubs.acs.org/journal/esthag
+        url: research/all_networks.html
         class: btn-light
         
   - type: members.html
