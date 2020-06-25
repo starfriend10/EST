@@ -2,12 +2,12 @@
 layout: home
 header:
   title: Environmental Science & Technology
-  text: >
+  text1: >
     A thorough exploration of research topics based on text mining
   action: # action button is optional
     label: Retrieve Zhu and Ren (XXXX)
     url: 'https://pubs.acs.org/journal/esthag'
-  text: >
+  text2: >
     Scroll down for details of interactive plots and data
 
 
