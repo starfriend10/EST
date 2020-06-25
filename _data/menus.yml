@@ -4,10 +4,10 @@
 # run. So please, fill in any custom menu entry here.
 header:
 - title: Article overview
-  url: /research/#1000kw
+  url: research/all_overview.html
 - title: Python tools used
-  url: /#services
+  url: research/all_python.html
 - title: Author details
-  url: /#members
+  url: research/all_authors.html
 - title: Updates
-  url: /#timeline
+  url: 
