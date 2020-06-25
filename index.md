@@ -7,6 +7,8 @@ header:
   action: # action button is optional
     label: Retrieve Zhu and Ren (XXXX)
     url: 'https://pubs.acs.org/journal/esthag'
+  text: >
+    Scroll down for details of interactive plots and data
 
 
 sections:
