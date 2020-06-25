@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="42ee4b2c-a4e5-4444-ba77-9dac3543d6df" data-root-id="2481"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2482">
+          {"5982a8f5-5267-47a7-b081-79c8318bccac":{"roots":{"references":[{"attributes":{"text":"\n&lt;br&gt;&lt;span style=\"font-size:18px\"&gt;&lt;b&gt;Junjie Zhu&lt;/b&gt;&lt;/span&gt;\n&lt;br&gt;\n&lt;br&gt;&lt;img src=\"figures/person1.jpg\" width=\"200\" height=\"200\"&gt;\n&lt;br&gt;Postdoctoral research associate at Princeton University\n&lt;br&gt;\n&lt;br&gt;Dr. Zhu is currently a postdoctoral research associate at Princeton University. \nHe was a lecturer from 2018 to 2019 and an adjunct assistant professor from 2016 to 2018 \nat the Illinois Institute of Technology. His research is primarily related to water and \nwastewater engineering. His research takes an emphasis on statistical analysis/modeling, data/text mining, \nmachine/deep learning, process modeling/control, resilience assessment, and water source heat pump.\n&lt;br&gt;\n&lt;br&gt;Email: junjiez@princeton.edu\n&lt;br&gt;Personal website: &lt;a href = \"https://junjiezhublog.wordpress.com\" target=\"_blank\"&gt;https://junjiezhublog.wordpress.com&lt;/a&gt;\n&lt;br&gt;\n","width":1400},"id":"2479","type":"Div"},{"attributes":{"children":[{"id":"2478","type":"Div"},{"id":"2479","type":"Div"},{"id":"2480","type":"Div"}]},"id":"2481","type":"Column"},{"attributes":{"text":"&lt;p style=\"color:Tomato\"&gt;&lt;b&gt;Visit the Princeton WET (Water &amp; Energy Technologies) Lab at\n           &lt;a href = \"https://ren.princeton.edu/\" target=\"_blank\"&gt;https://ren.princeton.edu&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;\n\n","width":1400},"id":"2478","type":"Div"},{"attributes":{"text":"\n&lt;br&gt;&lt;span style=\"font-size:18px\"&gt;&lt;b&gt;Zhiyong (Jason) Ren&lt;/b&gt;&lt;/span&gt;\n&lt;br&gt;\n&lt;br&gt;&lt;img src=\"figures/person2.jpg\" width=\"200\" height=\"200\"&gt;\n&lt;br&gt;Professor of Civil and Environmental Engineering and the Andlinger Center for Energy and the Environment\n&lt;br&gt;Associate &amp; acting Director for Research, Andlinger Center for Energy and the Environment\n&lt;br&gt;\n&lt;br&gt;Prof. Ren is a full professor in the Department of Civil and Environmental Engineering and \nthe Andlinger Center for Energy and the Environment at Princeton University. Prior to \njoining Princeton he was on faculty at University of Colorado for 10 years. Prof. Ren obtained \nhis Ph.D in Environmental Engineering at Penn State in 2008. Before that he worked as an \nenvironmental engineer after graduating from Tianjin University.\n\nProf. Ren holds a joint appointment with University of Colorado Boulder and a visiting professor p\nosition at the National Renewable Energy Lab (NREL).\n&lt;br&gt;\n&lt;br&gt;Prof. Ren and the WET (Water &amp; Energy Technologies) lab members work on Water-Energy Nexus \nespecially in areas of energy and resource recovery during environmental processes such as wastewater\n treatment and reuse, water desalination, remediation, and carbon capture and utilization. They use\n electrochemistry, microbiology, and system engineering tools to understand the fundamental determinant\n factors of the systems so as to enhance design, operation, and monitoring in concert with traditional \n approaches. Prof. Ren collaborates with colleagues from different disciplines. The group has been funded\n by federal and state agencies as well as private sponsors and published papers in Nature Sustainability, \n Nature Climate Change, Nature Energy, Science Advances, Energy &amp; Environmental Science, Environmental \n Science &amp; Technology, Water Research, and other journals. Prof. Ren co-founded 2 companies with students \n to translate research findings into real-world applications.\n&lt;br&gt;\n&lt;br&gt;Email: zjren@princeton.edu\n&lt;br&gt;School website: &lt;a href = \"https://cee.princeton.edu/people/zhiyong-jason-ren\" target=\"_blank\"&gt;https://cee.princeton.edu/people/zhiyong-jason-ren&lt;/a&gt;\n&lt;br&gt;\n","width":1400},"id":"2480","type":"Div"}],"root_ids":["2481"]},"title":"Bokeh Application","version":"1.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2482').textContent;
+                  var render_items = [{"docid":"5982a8f5-5267-47a7-b081-79c8318bccac","roots":{"2481":"42ee4b2c-a4e5-4444-ba77-9dac3543d6df"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

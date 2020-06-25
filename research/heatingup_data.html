@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.4.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="4455d9ec-4215-4952-afc9-345106507857" data-root-id="7736"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="7881">
+          {"bbbaac33-39e7-40d2-878c-0e296864e54b":{"roots":{"references":[{"attributes":{},"id":"7746","type":"StringEditor"},{"attributes":{},"id":"7751","type":"StringFormatter"},{"attributes":{},"id":"7743","type":"StringFormatter"},{"attributes":{"children":[{"id":"7725","type":"Div"},{"id":"7734","type":"DataTable"}]},"id":"7736","type":"Column"},{"attributes":{},"id":"7737","type":"UnionRenderers"},{"attributes":{},"id":"7742","type":"StringEditor"},{"attributes":{},"id":"7752","type":"StringEditor"},{"attributes":{},"id":"7744","type":"StringEditor"},{"attributes":{},"id":"7750","type":"StringEditor"},{"attributes":{"text":"&lt;p style=\"color:Tomato;\"&gt;&lt;b&gt;&lt;i&gt;Please adjust the explorer if you find the plot or table is too big to view. \n          For example, change \"Zoom\" in Google Chrome.&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;br&gt; This page includes an interactive heat map and corresponding data.\n&lt;br&gt;\n&lt;br&gt; The plot shows the details of annual normalized frequency of the most heating-up keywords; a &lt;i&gt;Bokeh&lt;/i&gt; toolbox is available on the right side of the plot and you can \nselect/unselect them to easily &lt;i&gt;pan&lt;/i&gt;, &lt;i&gt;box zoom&lt;/i&gt;, &lt;i&gt;wheel zoom&lt;/i&gt;, &lt;i&gt;save&lt;/i&gt;, &lt;i&gt;reset&lt;/i&gt;, and &lt;i&gt;hover&lt;/i&gt; the plot. Instruction can be found by \nclicking the bottom question mark in the toolbox or visit &lt;a href=\"https://docs.bokeh.org/en/latest/docs/user_guide/tools.html\" target=\"_blank\"&gt;Bokeh tools webpage&lt;/a&gt;.\n&lt;br&gt;\n&lt;br&gt; Hover your mouse on the heat map to see details of annual normalized frequency; keyword information can be found in the data table that includes \n&lt;br&gt;  &lt;b&gt;Keyword name&lt;/b&gt;,\n&lt;br&gt;  &lt;b&gt;Cumulative keyword frequency in the past period (2000-2009)&lt;/b&gt; (&lt;i&gt;&lt;b&gt;f&lt;sub&gt;past&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;),\n&lt;br&gt;  &lt;b&gt;Cumulative keyword frequency in the current period (2010-2019)&lt;/b&gt; (&lt;i&gt;&lt;b&gt;f&lt;sub&gt;current&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;), \n&lt;br&gt;  &lt;b&gt;Normalized cumulative keyword frequency in the past period (2000-2009)&lt;/b&gt; (&lt;i&gt;&lt;b&gt;F&lt;sub&gt;past&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;), \n&lt;br&gt;  &lt;b&gt;Normalized cumulative keyword frequency in the current period (2010-2019)&lt;/b&gt; (&lt;i&gt;&lt;b&gt;F&lt;sub&gt;current&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;), \n&lt;br&gt;  &lt;b&gt;Trend factor&lt;/b&gt;, and \n&lt;br&gt;  &lt;b&gt;Number of countries/regions that studied the keyword&lt;/b&gt; (&lt;i&gt;&lt;b&gt;N&lt;sub&gt;cr&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;)\n&lt;br&gt;\n&lt;br&gt; Data in the table below are ordered based on total frequency. You can click trend factor to check the top-trend keywords\n&lt;br&gt;\n\n","width":800},"id":"7725","type":"Div"},{"attributes":{"editor":{"id":"7746","type":"StringEditor"},"field":"KW_normfreq_past","formatter":{"id":"7745","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;F&lt;sub&gt;past&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7730","type":"TableColumn"},{"attributes":{},"id":"7738","type":"Selection"},{"attributes":{},"id":"7745","type":"StringFormatter"},{"attributes":{"editor":{"id":"7740","type":"StringEditor"},"field":"KW_name","formatter":{"id":"7739","type":"StringFormatter"},"title":"&lt;b&gt;Keyword&lt;/b&gt;","width":700},"id":"7727","type":"TableColumn"},{"attributes":{},"id":"7747","type":"StringFormatter"},{"attributes":{"editor":{"id":"7742","type":"StringEditor"},"field":"KW_freq_past","formatter":{"id":"7741","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;f&lt;sub&gt;past&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7728","type":"TableColumn"},{"attributes":{"editor":{"id":"7744","type":"StringEditor"},"field":"KW_freq_current","formatter":{"id":"7743","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;f&lt;sub&gt;current&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7729","type":"TableColumn"},{"attributes":{"source":{"id":"7726","type":"ColumnDataSource"}},"id":"7735","type":"CDSView"},{"attributes":{},"id":"7739","type":"StringFormatter"},{"attributes":{},"id":"7749","type":"StringFormatter"},{"attributes":{"callback":null,"data":{"All frequency":[871,592,536,511,464,441,334,313,309,305,303,295,295,274,243,238,200,198,184,172,167,162,151,151,150,149,148,145,144,140,140,136,132,130,128,119,115,114,114,112,110,109,108,108,106,105,104,98,96,94,91,87,85,85,81,78,78,78,77,76,76,75,75,72,71,70,66,66,64,61],"KW_cntnum":[28,33,29,29,30,31,32,19,20,22,24,28,28,25,28,23,23,21,22,25,22,18,16,20,18,26,14,18,20,19,15,22,19,18,16,19,16,19,15,15,19,20,18,19,22,27,19,17,14,19,17,17,14,20,17,11,10,19,12,12,11,15,15,14,18,12,12,5,15,13],"KW_freq_current":[709,470,428,421,385,351,282,253,260,269,245,278,248,227,202,206,167,163,151,143,133,137,139,128,122,119,135,115,117,140,111,127,105,114,125,97,109,106,93,90,103,89,106,90,91,88,84,83,78,82,85,79,78,72,75,78,68,67,64,72,64,66,65,61,61,66,66,64,64,61],"KW_freq_past":[162,122,108,90,79,90,52,60,49,36,58,17,47,47,41,32,33,35,33,29,34,25,12,23,28,30,13,30,27,0,29,9,27,16,3,22,6,8,21,22,7,20,2,18,15,17,20,15,18,12,6,8,7,13,6,0,10,11,13,4,12,9,10,11,10,4,0,2,0,0],"KW_name":["china","energi","co2","life cycle assess","climat","ch4","divers","pfas","carbon nanotub","greenhouse gas emiss","nanomateri","silver nanoparticl","oxidative stress","aggreg","microbial commun","zebrafish","personal care product","storag","n2o","land us","cost","optical properti","desalin","bisphenol a","activ","stress","natural ga","trophic transf","polici","microplast","rice","co2 captur","captur","biofuel","biochar","mitig","pfaa","resolution mass spectroscopi","pfoa","electr","tio2 nanoparticl","extracellular polymer subst","engineered nanomateri","micropollut","plastic","biodiesel","sustain","salin","resourc","pregnanc","oxide nanoparticl","abund","gold nanoparticl","ingest","engineered nanoparticl","graphene oxid","aggregation kinet","electronic wast","human health","land use regress","dechlorane plus","co2 sequestr","indoor dust","women","transformation product","thin film composit","fukushima","oil sand","footprint","graphen"],"KW_normfreq_current":{"__ndarray__":"kxgEVg5NR0D4U+Olm+Q+QG8Sg8DKITxAeekmMQisO0B1kxgEVk45QBkEVg4tEjdA8KfGSzeJMkAbL90kBqEwQNejcD0KFzFAdZMYBFauMUC0yHa+nxowQNnO91PjRTJAkxgEVg5NMEDXo3A9CtctQOf7qfHSjSpAFK5H4XoUK0BOYhBYOfQlQCGwcmiRbSVAmpmZmZnZI0A/NV66ScwiQJZDi2zneyFAw/UoXI8CIkASg8DKoUUiQPp+arx00yBAfT81XroJIEB9PzVeukkfQOXQItv5viFAI9v5fmo8HkDD9Shcj8IeQIGVQ4tsZyJAyXa+nxovHUAZBFYOLbIgQM/3U+OlmxtARrbz/dT4HUA730+Nl24gQBsv3SQGgRlADi2yne+nHECR7Xw/Nd4bQMHKoUW2cxhARIts5/upF0AUrkfhehQbQGZmZmZmZhdAke18PzXeG0BEi2zn+6kXQAaBlUOL7BdAiUFg5dAiF0Av3SQGgRUWQG3n+6nx0hVANV66SQyCFECPwvUoXI8VQAwCK4cWWRZAEoPAyqHFFEA1XrpJDIIUQCGwcmiR7RJAuB6F61G4E0A1XrpJDIIUQOF6FK5H4RFABFYOLbKdEUCHFtnO99MQQCGwcmiR7RJAhxbZzvfTEEAnMQisHFoRQEoMAiuHFhFA8KfGSzcJEEDwp8ZLNwkQQCcxCKwcWhFAJzEIrBxaEUCHFtnO99MQQIcW2c730xBA8KfGSzcJEEA=","dtype":"float64","shape":[70]},"KW_normfreq_past":{"__ndarray__":"JQaBlUMrMEC0yHa+n1ooQI/C9ShcjyVAnu+nxkv3IUAK16NwPYofQJ7vp8ZL9yFAw/UoXI/CFEDb+X5qvPQXQKrx0k1ikBNAWDm0yHa+DEAOLbKd7ycXQPT91HjpJvs/3SQGgZXDEkDdJAaBlcMSQJHtfD81XhBAWmQ730+NCUAnMQisHFoKQIts5/up8QtAJzEIrBxaCkApXI/C9SgHQPT91HjpJgtA9ihcj8L1A0BeukkMAivzP5HtfD81XgJAXI/C9ShcBkDByqFFtvMHQPhT46WbxPQ/wcqhRbbzB0CPwvUoXI8FQAAAAAAAAAAAKVyPwvUoB0Aj2/l+arzsP4/C9ShcjwVAWmQ730+N+T+JQWDl0CLTP8UgsHJokQFAXrpJDAIr4z/wp8ZLN4npP/hT46WbxABAxSCwcmiRAUCR7Xw/NV7mP1YOLbKd7/8/mpmZmZmZyT+Nl24Sg8D8P8HKoUW28/c/9P3UeOkm+z9WDi2yne//P8HKoUW28/c/jZduEoPA/D9eukkMAivzP166SQwCK+M/8KfGSzeJ6T+R7Xw/NV7mP/hT46WbxPQ/XrpJDAIr4z8AAAAAAAAAAFYOLbKd7+8/xSCwcmiR8T/4U+Olm8T0P/Cnxks3idk/XrpJDAIr8z8j2/l+arzsP1YOLbKd7+8/xSCwcmiR8T9WDi2yne/vP/Cnxks3idk/AAAAAAAAAACamZmZmZnJPwAAAAAAAAAAAAAAAAAAAAA=","dtype":"float64","shape":[70]},"KW_ratio":{"__ndarray__":"cT0K16Nw3T9CYOXQItvZP+Olm8QgsNo/sp3vp8ZL3z/+1HjpJjHgPz0K16NwPdo/GQRWDi2y4T/RItv5fmrcP8dLN4lBYOE/vp8aL90k5j/RItv5fmrcP1CNl24Sg/A/HVpkO99P4T9/arx0kxjgPycxCKwcWuA/qvHSTWIQ5D8j2/l+arzgP166SQwCK98/Di2yne+n3j/8qfHSTWLgP+f7qfHSTdo/bef7qfHS4T/TTWIQWDnsPz81XrpJDOI/HVpkO99P3T/jpZvEILDaP7gehetRuOo/7nw/NV662T8fhetRuB7dPwAAAAAAAPB/7nw/NV662T9g5dAi2/nuP+kmMQisHNo/Rrbz/dR45T81XrpJDAL3P28Sg8DKod0/c2iR7Xw/8T/pJjEIrBzuP8P1KFyPwt0/hetRuB6F2z9aZDvfT43vPxfZzvdT490/46WbxCCw+D/6fmq8dJPgP90kBoGVQ+M/dZMYBFYO4T99PzVeukncP5ZDi2zn++E/H4XrUbge3T9MN4lBYOXkPwrXo3A9Cu8/arx0kxgE6j+DwMqhRbbrP5ZDi2zn++E/SOF6FK5H7T8AAAAAAADwf6JFtvP91OQ/sp3vp8ZL4z8nMQisHFrgP8l2vp8aL/E/Rrbz/dR44T8X2c73U+PlP/7UeOkmMeQ/arx0kxgE4j+HFtnO91PjP/p+arx0k/A/AAAAAAAA8H/Jdr6fGi/1PwAAAAAAAPB/AAAAAAAA8H8=","dtype":"float64","shape":[70]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69]},"selected":{"id":"7738","type":"Selection"},"selection_policy":{"id":"7737","type":"UnionRenderers"}},"id":"7726","type":"ColumnDataSource"},{"attributes":{},"id":"7740","type":"StringEditor"},{"attributes":{"editor":{"id":"7748","type":"StringEditor"},"field":"KW_normfreq_current","formatter":{"id":"7747","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;F&lt;sub&gt;current&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7731","type":"TableColumn"},{"attributes":{},"id":"7748","type":"StringEditor"},{"attributes":{"editor":{"id":"7752","type":"StringEditor"},"field":"KW_cntnum","formatter":{"id":"7751","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;N&lt;sub&gt;cr&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7733","type":"TableColumn"},{"attributes":{"editor":{"id":"7750","type":"StringEditor"},"field":"KW_ratio","formatter":{"id":"7749","type":"StringFormatter"},"title":"&lt;b&gt;Trend factor&lt;/b&gt;"},"id":"7732","type":"TableColumn"},{"attributes":{},"id":"7741","type":"StringFormatter"},{"attributes":{"columns":[{"id":"7727","type":"TableColumn"},{"id":"7728","type":"TableColumn"},{"id":"7729","type":"TableColumn"},{"id":"7730","type":"TableColumn"},{"id":"7731","type":"TableColumn"},{"id":"7732","type":"TableColumn"},{"id":"7733","type":"TableColumn"}],"height":600,"source":{"id":"7726","type":"ColumnDataSource"},"view":{"id":"7735","type":"CDSView"},"width":800},"id":"7734","type":"DataTable"}],"root_ids":["7736"]},"title":"Bokeh Application","version":"1.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('7881').textContent;
+                  var render_items = [{"docid":"bbbaac33-39e7-40d2-878c-0e296864e54b","roots":{"7736":"4455d9ec-4215-4952-afc9-345106507857"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.4.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-tables-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ae0ad3b1-02d2-44df-95eb-9be5a6d43eea" data-root-id="7579"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="7724">
+          {"acd8f503-cc2b-4310-811c-a56921bd2c04":{"roots":{"references":[{"attributes":{},"id":"7585","type":"StringEditor"},{"attributes":{"editor":{"id":"7593","type":"StringEditor"},"field":"KW_ratio","formatter":{"id":"7592","type":"StringFormatter"},"title":"&lt;b&gt;Emerging trend factor&lt;/b&gt;","width":500},"id":"7575","type":"TableColumn"},{"attributes":{"editor":{"id":"7591","type":"StringEditor"},"field":"KW_normfreq_current","formatter":{"id":"7590","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;F&lt;sub&gt;current&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7574","type":"TableColumn"},{"attributes":{},"id":"7595","type":"StringEditor"},{"attributes":{},"id":"7586","type":"StringFormatter"},{"attributes":{},"id":"7591","type":"StringEditor"},{"attributes":{"callback":null,"data":{"KW_cntnum":[11,11,15,19,12,10,6,9,7,13,8,10,15,8,11,15,1,19,18,15,13,16,14,10,14,18,7,22,12,12,17,8,5],"KW_freq_current":[75,37,45,121,31,29,27,37,37,42,28,24,40,24,28,33,25,81,50,36,42,77,24,33,29,71,23,68,25,32,23,29,29],"KW_freq_past":[3,3,6,19,5,6,7,10,10,12,8,7,15,9,11,13,10,33,21,16,19,38,12,17,15,37,12,38,14,18,13,17,17],"KW_name":["graphene oxid","global burden","plastic debri","microplast","antibiotic resistance gen","metal organic framework","organophosphate flame retard","persistent free rad","nanosheet","brown carbon","peroxymonosulf","prenatal exposur","zno nanoparticl","material flow analysi","persulf","emerging contamin","pennsylvania","resolution mass spectroscopi","transformation product","arabidopsis thaliana","graphen","pfaa","debri","ceo2 nanoparticl","organophosph","engineered nanomateri","antioxid","plastic","high throughput","stock","human urin","chain chlorinated paraffin","shale ga"],"KW_normfreq_current":{"__ndarray__":"d76fGi/dI0CamZmZmZkTQLx0kxgE1hdAoBov3SQGMEDsUbgehWsQQO58PzVeug5Az/dT46WbDECamZmZmZkTQJqZmZmZmRNAc2iR7Xw/FkBEi2zn+6kNQAaBlUOLbAlA46WbxCAwFUAGgZVDi2wJQESLbOf7qQ1AexSuR+F6EUCwcmiR7XwKQE5iEFg5dCVAsHJoke18GkDfT42XbhITQHNoke18PxZAvp8aL91kJEAGgZVDi2wJQHsUrkfhehFA7nw/NV66DkB1kxgEVs4iQJHtfD81XghAw/UoXI8CIkCwcmiR7XwKQMHKoUW28xBAke18PzVeCEDufD81XroOQO58PzVeug5A","dtype":"float64","shape":[33]},"KW_normfreq_past":{"__ndarray__":"w/UoXI/CxT/D9Shcj8LFPxkEVg4tstU/MzMzMzMz8T/pJjEIrBzSPxkEVg4tstU/8tJNYhBY2T/pJjEIrBziP+kmMQisHOI/7nw/NV665T8hsHJoke3cP/LSTWIQWNk/iUFg5dAi6z99PzVeukngP4GVQ4ts5+M/hetRuB6F5z/pJjEIrBziP0Jg5dAi2/0/NV66SQwC8z/2KFyPwvXsPzMzMzMzM/E//tR46SYxAUDufD81XrrlP42XbhKDwO4/iUFg5dAi6z9YObTIdr4AQO58PzVeuuU//tR46SYxAUDy0k1iEFjpP30/NV66SfA/hetRuB6F5z+Nl24Sg8DuP42XbhKDwO4/","dtype":"float64","shape":[33]},"KW_ratio":{"__ndarray__":"EoPAyqFF/D/HSzeJQWD3P+xRuB6F6/M/YhBYObTI8j9kO99PjZfyP3e+nxov3fA/ZDvfT42X7j9qvHSTGATuP2q8dJMYBO4/c2iR7Xw/7T9zaJHtfD/tP/YoXI/C9ew/cT0K16Nw6T9xPQrXo3DpP83MzMzMzOg/+FPjpZvE6D8lBoGVQ4voP30/NV66Seg/rBxaZDvf5z+0yHa+nxrnPwwCK4cW2eY/bxKDwMqh5T9GtvP91HjlP3WTGARWDuU/y6FFtvP95D9MN4lBYOXkP3e+nxov3eQ/gZVDi2zn4z+sHFpkO9/jPwIrhxbZzuM/WDm0yHa+4z8IrBxaZDvjPwisHFpkO+M/","dtype":"float64","shape":[33]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]},"selected":{"id":"7581","type":"Selection"},"selection_policy":{"id":"7580","type":"UnionRenderers"}},"id":"7569","type":"ColumnDataSource"},{"attributes":{"columns":[{"id":"7570","type":"TableColumn"},{"id":"7571","type":"TableColumn"},{"id":"7572","type":"TableColumn"},{"id":"7573","type":"TableColumn"},{"id":"7574","type":"TableColumn"},{"id":"7575","type":"TableColumn"},{"id":"7576","type":"TableColumn"}],"height":600,"source":{"id":"7569","type":"ColumnDataSource"},"view":{"id":"7578","type":"CDSView"},"width":800},"id":"7577","type":"DataTable"},{"attributes":{"editor":{"id":"7595","type":"StringEditor"},"field":"KW_cntnum","formatter":{"id":"7594","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;N&lt;sub&gt;cr&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7576","type":"TableColumn"},{"attributes":{"children":[{"id":"7568","type":"Div"},{"id":"7577","type":"DataTable"}]},"id":"7579","type":"Column"},{"attributes":{},"id":"7594","type":"StringFormatter"},{"attributes":{"source":{"id":"7569","type":"ColumnDataSource"}},"id":"7578","type":"CDSView"},{"attributes":{"editor":{"id":"7583","type":"StringEditor"},"field":"KW_name","formatter":{"id":"7582","type":"StringFormatter"},"title":"&lt;b&gt;Keyword&lt;/b&gt;","width":700},"id":"7570","type":"TableColumn"},{"attributes":{},"id":"7590","type":"StringFormatter"},{"attributes":{},"id":"7583","type":"StringEditor"},{"attributes":{},"id":"7593","type":"StringEditor"},{"attributes":{},"id":"7584","type":"StringFormatter"},{"attributes":{"editor":{"id":"7587","type":"StringEditor"},"field":"KW_freq_current","formatter":{"id":"7586","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;f&lt;sub&gt;current&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7572","type":"TableColumn"},{"attributes":{},"id":"7592","type":"StringFormatter"},{"attributes":{"editor":{"id":"7585","type":"StringEditor"},"field":"KW_freq_past","formatter":{"id":"7584","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;f&lt;sub&gt;past&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7571","type":"TableColumn"},{"attributes":{},"id":"7589","type":"StringEditor"},{"attributes":{"text":"&lt;p style=\"color:Tomato;\"&gt;&lt;b&gt;&lt;i&gt;Please adjust the explorer if you find the plot or table is too big to view. \n          For example, change \"Zoom\" in Google Chrome.&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;br&gt; This page includes an interactive heat map and corresponding data.\n&lt;br&gt;\n&lt;br&gt; The plot shows the details of annual normalized frequency of &lt;span style=\"color:Tomato\"&gt;&lt;b&gt;the emerging keywords&lt;/b&gt;&lt;/span&gt;; a &lt;i&gt;Bokeh&lt;/i&gt; toolbox is available on the right side of the plot and you can \nselect/unselect them to easily &lt;i&gt;pan&lt;/i&gt;, &lt;i&gt;box zoom&lt;/i&gt;, &lt;i&gt;wheel zoom&lt;/i&gt;, &lt;i&gt;save&lt;/i&gt;, &lt;i&gt;reset&lt;/i&gt;, and &lt;i&gt;hover&lt;/i&gt; the plot. Instruction can be found by \nclicking the bottom question mark in the toolbox or visit &lt;a href=\"https://docs.bokeh.org/en/latest/docs/user_guide/tools.html\" target=\"_blank\"&gt;Bokeh tools webpage&lt;/a&gt;.\n&lt;br&gt;\n&lt;br&gt; Hover your mouse on the heat map to see details of annual normalized frequency; keyword information can be found in the data table that includes \n&lt;br&gt;  &lt;b&gt;Keyword name&lt;/b&gt;,\n&lt;br&gt;  &lt;b&gt;Cumulative keyword frequency in the past period (2000-2014)&lt;/b&gt; (&lt;i&gt;&lt;b&gt;f&lt;sub&gt;past&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;, #papers),\n&lt;br&gt;  &lt;b&gt;Cumulative keyword frequency in the current period (2015-2019)&lt;/b&gt; (&lt;i&gt;&lt;b&gt;f&lt;sub&gt;current&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;, #papers), \n&lt;br&gt;  &lt;b&gt;Normalized cumulative keyword frequency in the past period (2000-2014)&lt;/b&gt; (&lt;i&gt;&lt;b&gt;F&lt;sub&gt;past&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;, #papers/1000 papers), \n&lt;br&gt;  &lt;b&gt;Normalized cumulative keyword frequency in the current period (2015-2019)&lt;/b&gt; (&lt;i&gt;&lt;b&gt;F&lt;sub&gt;current&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;, #papers/1000 papers), \n&lt;br&gt;  &lt;b&gt;Emerging trend factor&lt;/b&gt;, and \n&lt;br&gt;  &lt;b&gt;Number of countries/regions that studied the keyword&lt;/b&gt; (&lt;i&gt;&lt;b&gt;N&lt;sub&gt;cr&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;)\n&lt;br&gt;\n&lt;br&gt; Data in the table below are ordered based on total frequency. You can click trend factor to check the top-trend keywords\n&lt;br&gt;\n\n","width":800},"id":"7568","type":"Div"},{"attributes":{},"id":"7587","type":"StringEditor"},{"attributes":{"editor":{"id":"7589","type":"StringEditor"},"field":"KW_normfreq_past","formatter":{"id":"7588","type":"StringFormatter"},"title":"&lt;i&gt;&lt;b&gt;F&lt;sub&gt;past&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;"},"id":"7573","type":"TableColumn"},{"attributes":{},"id":"7582","type":"StringFormatter"},{"attributes":{},"id":"7580","type":"UnionRenderers"},{"attributes":{},"id":"7581","type":"Selection"},{"attributes":{},"id":"7588","type":"StringFormatter"}],"root_ids":["7579"]},"title":"Bokeh Application","version":"1.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('7724').textContent;
+                  var render_items = [{"docid":"acd8f503-cc2b-4310-811c-a56921bd2c04","roots":{"7579":"ae0ad3b1-02d2-44df-95eb-9be5a6d43eea"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
