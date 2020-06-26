@@ -30,7 +30,7 @@ sections:
         
   - type: aside3.html
     section_id: aside
-    title:  Heating-up keywords: Distribution
+    title:  Distribution of heating-up keywords  
     actions:
       - title: Distribution of temporal trend of the top 1000 keywords
         url: research/all_1000kw.html
@@ -38,15 +38,15 @@ sections:
         
   - type: aside1.html
     section_id: aside
-    title: Heating-up keywords: Heat map
+    title: Heat map of the heating-up keywords
     actions:
-      - title: Heat map of temporal trend of the heating-up keywords
+      - title: Annual normalized temporal trend of the heating-up keywords
         url: research/all_heatingup.html
         class: btn-light
  
   - type: aside4.html
     section_id: aside
-    title: Emerging keywords: Distribution
+    title: Distribution of the emerging keywords
     actions:
       - title: Distribution of emerging trend of the top 1500 keywords
         url: research/all_emerging.html
@@ -54,9 +54,9 @@ sections:
      
   - type: aside2.html
     section_id: aside
-    title: Emerging keywords: Heat map
+    title: Heat map of the emerging keywords
     actions:
-      - title: Heat map of temporal trend of the most emerging keywords
+      - title: Annual normalized temporal trend of the most emerging keywords
         url: research/all_circos.html
         class: btn-light
 
