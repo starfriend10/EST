@@ -49,7 +49,7 @@ sections:
     title: Distribution of the emerging keywords
     actions:
       - title: Distribution of emerging trend of the top 1500 keywords
-        url: research/all_emerging.html
+        url: research/all_1500kw_emerging.html
         class: btn-light
      
   - type: aside2.html
@@ -57,7 +57,7 @@ sections:
     title: Heat map of the emerging keywords
     actions:
       - title: Annual normalized temporal trend of the most emerging keywords
-        url: research/all_circos.html
+        url: research/all_emerging.html
         class: btn-light
 
   - type: aside5.html
