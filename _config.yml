@@ -1,9 +1,9 @@
 # Site settings
-title: ES&T 20 years
+title: ES&T 2000-2019
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-author: Copyright &copy; 2020
+author: Copyright &copy; 2021
 lang: en_US
 
 # Build settings
