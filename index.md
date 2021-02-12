@@ -62,9 +62,9 @@ sections:
 
   - type: aside5.html
     section_id: aside
-    title: Domain classification
+    title: Domain-based classification
     actions:
-      - title: Raw plot of the membership-based networks
+      - title: Membership-based networks of classified groups
         url: research/all_networks.html
         class: btn-light
         
