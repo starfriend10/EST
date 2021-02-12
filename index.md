@@ -1,12 +1,12 @@
 ---
 layout: home
 header:
-  title: Environmental Science & Technology
+  title: ES&T in the 21st century
   text1: >
-    A thorough exploration of research topics based on text mining
+    A data-driven analysis of research topics, interconnections, and trends in the past 20 years
   action: # action button is optional
-    label: Retrieve Zhu and Ren (XXXX)
-    url: 'https://pubs.acs.org/journal/esthag'
+    label: Retrieve Zhu et al. (2021)
+    url: 'https://dx.doi.org/10.1021/acs.est.0c07551'
   text2: >
     Scroll down for details of interactive plots and data
 
@@ -30,7 +30,7 @@ sections:
         
   - type: aside3.html
     section_id: aside
-    title:  Distribution of heating-up keywords  
+    title:  Distribution of trending-up keywords  
     actions:
       - title: Distribution of temporal trend of the top 1000 keywords
         url: research/all_1000kw.html
@@ -38,10 +38,10 @@ sections:
         
   - type: aside1.html
     section_id: aside
-    title: Heat map of the heating-up keywords
+    title: Heat map of the trending-up keywords
     actions:
-      - title: Annual normalized temporal trend of the heating-up keywords
-        url: research/all_heatingup.html
+      - title: Annual normalized temporal trend of the trending-up keywords
+        url: research/all_trendingup.html
         class: btn-light
  
   - type: aside4.html
@@ -74,9 +74,17 @@ sections:
     background_style: bg-info text-white
     members:
       - title: Junjie Zhu
-        text: Postdoctoral Research Associate, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
+        text: Associate Research Scholar, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
         image: assets/img/members/person1.jpg
-        url: 'https://junjiezhublog.wordpress.com/'
+        url: '#'
+      - title: Willow Dressel
+        text: Librarian of Engineering Library, Princeton University Library, Princeton University
+        image: assets/img/members/person3.jpg
+        url: '#'
+      - title: Kelee Pacion
+        text: Biology Librarian, Princeton University Library, Princeton University
+        image: assets/img/members/person4.jpg
+        url: '#'
       - title: Zhiyong Jason Ren
         text: Professor; Acting Director & Associate Director, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
         image: assets/img/members/person2.jpg
