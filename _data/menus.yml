@@ -5,9 +5,7 @@
 header:
 - title: Article overview
   url: research/all_overview.html
-- title: Python tools used
-  url: research/all_python.html
 - title: Author details
   url: research/all_authors.html
-- title: Updates
-  url: 
+- title: Additional materials
+  url: research/all_materials.html
