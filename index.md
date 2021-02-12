@@ -5,7 +5,7 @@ header:
   text1: >
     A data-driven analysis of research topics, interconnections, and trends in the past 20 years
   action: # action button is optional
-    label: Retrieve Zhu et al. (2021)
+    label: Retrieve Full-text of Zhu et al. (2021)
     url: 'https://dx.doi.org/10.1021/acs.est.0c07551'
   text2: >
     Scroll down for details of interactive plots and data
