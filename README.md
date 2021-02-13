@@ -6,7 +6,7 @@ This [website](https://starfriend10.github.io/EST/) (repository) is specifically
 # Introduction of the study
 
 This study is published as a feature article entitled "ES&T in the 21st century: A data-driven analysis of research topics, interconnections, and trends in the past 20 years" in *Environmental Science & Technology* (*ES&T*) in March, 2021. The study provides new data-driven methods on literature mining and offers unique insights on environmental research landscape and opportunities based on *ES&T* publications (articles and reviews) from 2000 to 2019.
-(https://starfriend10.github.io/EST/research/figures/TOC.jpg)
+[img](https://starfriend10.github.io/EST/research/figures/TOC.jpg)
 
 # Use of the website and data
 
