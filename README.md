@@ -1,6 +1,6 @@
 # Overview of this website
 
-This website (repository) is specifically designed to showcase research outcomes resulted from Zhu et al. (2021). Brief introduction of the study is described below. When the study was initialized, interactive plots (based on Python library, Bokeh) have been considered as a tool to better communicate the results. In this website, many of the figures were prepared using Bokeh to grant a certain of interactive functions, such as move, zoom, and hover over. Visit Bokeh website for more information: https://bokeh.org/
+This website (repository) is specifically designed to showcase research outcomes resulted from Zhu et al. (2021). Brief introduction of the study is described below. When the study was initialized, interactive plots (based on Python library, [Bokeh](https://bokeh.org/)) have been considered as a tool to better communicate the results. In this website, many of the figures were prepared using Bokeh to grant a certain of interactive functions, such as move, zoom, and hover over.
 
 # Introduction of the study
 
