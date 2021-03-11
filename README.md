@@ -19,4 +19,4 @@ In addition to this website, the author's [research webpage](https://junjiezhubl
 
 # Website template
 
-The website is developed based on Jekyll (new). Check their GitHub website for more information: https://github.com/vvalchev/creative-theme-jekyll-new.
+The website is developed based on a template of Jekyll (new). Check their GitHub website for more information: https://github.com/vvalchev/creative-theme-jekyll-new.
