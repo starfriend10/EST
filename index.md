@@ -86,7 +86,7 @@ sections:
         image: assets/img/members/person4.jpg
         url: '#'
       - title: Zhiyong Jason Ren
-        text: Professor; Acting Director & Associate Director, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
+        text: Professor; Associate Director, CEE Department and the Andlinger Center for Energy and the Environment, Princeton University
         image: assets/img/members/person2.jpg
         url: '#'
 ---
