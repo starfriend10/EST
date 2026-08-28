@@ -17,6 +17,53 @@
     .forthcoming { color:#777; font-style:italic; }
     hr { border:0; border-top:1px solid #e6e6e6; margin:25px 0; }
 
+
+    .support-card {
+      position: relative;
+      margin: 8px 0 20px;
+      padding: 14px 170px 14px 16px;
+      border: 1px solid #e2e2e2;
+      border-radius: 8px;
+      background: #fafafa;
+      box-sizing: border-box;
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+    }
+    .support-message {
+      margin: 0;
+      color: #555;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+    .support-icon {
+      margin-right: 7px;
+    }
+    .github-star-btn {
+      position: absolute;
+      top: 50%;
+      right: 14px;
+      transform: translateY(-50%);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border: 1px solid #d0d7de;
+      border-radius: 6px;
+      background: #fff;
+      color: #24292f;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.18s ease, border-color 0.18s ease;
+    }
+    .github-star-btn:hover {
+      background: #f3f4f6;
+      border-color: #afb8c1;
+      text-decoration: none;
+    }
+
     .research-sites {
       display: grid;
       grid-template-columns: repeat(4, 150px);
@@ -65,6 +112,16 @@
       opacity: 0.72;
     }
     @media (max-width: 760px) {
+
+      .support-card {
+        padding: 14px 16px;
+        display: block;
+      }
+      .github-star-btn {
+        position: static;
+        transform: none;
+        margin-top: 10px;
+      }
       .research-sites {
         grid-template-columns: repeat(2, 150px);
       }
@@ -82,6 +139,12 @@
     <div class="citation">
       Zhu, J.-J., Dressel, W., Pacion, K., &amp; Ren, Z. J. (2021). ES&amp;T in the 21st century: a data-driven analysis of research topics, interconnections, and trends in the past 20 years. <i>Environmental Science &amp; Technology</i>, 55(6), 3453–3464.<br>
       <a href="https://doi.org/10.1021/acs.est.0c07551" target="_blank" rel="noopener noreferrer">https://doi.org/10.1021/acs.est.0c07551</a>
+    </div>
+
+    <h2>Support ES&amp;T 20 Years Project 💙</h2>
+    <div class="support-card">
+      <p class="support-message"><span class="support-icon">💡</span>Your support is very important to us. If ES&amp;T 20 Years is useful for your research, please consider giving the project a star on GitHub and exploring our other research projects.</p>
+      <a class="github-star-btn" href="https://github.com/starfriend10/EST" target="_blank" rel="noopener noreferrer">★ Star on GitHub</a>
     </div>
 
     <h2>Supporting Information</h2>
